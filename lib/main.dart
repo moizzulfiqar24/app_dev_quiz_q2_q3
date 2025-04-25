@@ -26,7 +26,6 @@ class AirPodsScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Header Text
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -49,10 +48,9 @@ class AirPodsScreen extends StatelessWidget {
               ),
               SizedBox(height: 24),
 
-              // Grey Container
               Container(
                 decoration: BoxDecoration(
-                  color: Color(0xFF1C1C1E), // dark grey background
+                  color: Color(0xFF1C1C1E), 
                   borderRadius: BorderRadius.circular(20),
                 ),
                 padding: const EdgeInsets.all(20),
@@ -61,7 +59,6 @@ class AirPodsScreen extends StatelessWidget {
                     Column(
                       children: [
                         SizedBox(height: 16),
-                        // Product Image
                         Center(
                           child: Image.asset(
                             'assets/airpods-max-white.png',
@@ -70,7 +67,6 @@ class AirPodsScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 32),
 
-                        // Free Engraving
                         Text(
                           'Free Engraving',
                           style: TextStyle(
@@ -80,7 +76,6 @@ class AirPodsScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 8),
 
-                        // Product Name
                         Text(
                           'AirPods Max — Silver',
                           style: TextStyle(
@@ -90,7 +85,6 @@ class AirPodsScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 8),
 
-                        // Price
                         Text(
                           'A\$899.00',
                           style: TextStyle(
@@ -101,7 +95,6 @@ class AirPodsScreen extends StatelessWidget {
                         ),
                         SizedBox(height: 24),
 
-                        // Color Dots and "+1 more"
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -119,7 +112,6 @@ class AirPodsScreen extends StatelessWidget {
                       ],
                     ),
 
-                    // Save Icon (Top Right Corner)
                     Positioned(
                       top: 0,
                       right: 0,
