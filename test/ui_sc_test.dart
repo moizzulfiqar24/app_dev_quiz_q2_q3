@@ -6,7 +6,7 @@ import 'package:app_dev_quiz_q2_q3/main.dart';
 void main() {
   group('AirPodsScreen Golden Test', () {
     goldenTest(
-      'AirPodsScreen on iPhone 16 Pro Max',
+      'renders AirPodsScreen on iPhone 16 Pro Max',
       fileName: 'ui_sc_test', 
       builder: () => GoldenTestGroup(
         scenarioConstraints: const BoxConstraints(
